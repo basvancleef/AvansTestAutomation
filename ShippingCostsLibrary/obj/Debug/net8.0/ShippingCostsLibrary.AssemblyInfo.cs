@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ShippingCostsLibrary")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6bebc5331442c30c0df29d316366a2429e0e7a37")]
 [assembly: System.Reflection.AssemblyProductAttribute("ShippingCostsLibrary")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ShippingCostsLibrary")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
