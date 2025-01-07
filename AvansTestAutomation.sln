@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingCostsLibrary", "Shi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShippingCostsTests", "ShippingCostsTests\ShippingCostsTests.csproj", "{39ECE013-9487-4FA8-9C54-65ADA057676D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SoapApiTests", "SoapApiTests\SoapApiTests.csproj", "{BBD30438-612C-433F-84F4-2EEC91926893}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{39ECE013-9487-4FA8-9C54-65ADA057676D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{39ECE013-9487-4FA8-9C54-65ADA057676D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{39ECE013-9487-4FA8-9C54-65ADA057676D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BBD30438-612C-433F-84F4-2EEC91926893}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BBD30438-612C-433F-84F4-2EEC91926893}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BBD30438-612C-433F-84F4-2EEC91926893}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BBD30438-612C-433F-84F4-2EEC91926893}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
