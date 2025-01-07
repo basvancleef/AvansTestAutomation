@@ -1,0 +1,24 @@
+name: CI Tests
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  starting:
+    runs-on: "ubuntu-latest"
+
+    steps:
+      - name: Log a simple message
+        run: echo "Hello, GitHub Actions!"
+
+  tests:
+    name: Unit tests
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Run tests
+        run: echo "Running tests..."
+
