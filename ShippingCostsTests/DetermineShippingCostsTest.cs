@@ -1,6 +1,6 @@
 namespace ShippingCostsTests;
 
-public class UnitTest1
+public class DetermineShippingCostsTest
 {
     [Fact]
     public void Test1()

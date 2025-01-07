@@ -1,5 +1,5 @@
 ﻿namespace ShippingCostsLibrary;
 
-public class Class1
+public class DetermineShippingCosts
 {
 }

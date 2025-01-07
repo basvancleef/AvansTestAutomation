@@ -21,5 +21,6 @@
   </ImportGroup>
   <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
     <Pkgxunit_analyzers Condition=" '$(Pkgxunit_analyzers)' == '' ">/Users/basvancleef/.nuget/packages/xunit.analyzers/1.0.0</Pkgxunit_analyzers>
+    <PkgOpenCover Condition=" '$(PkgOpenCover)' == '' ">/Users/basvancleef/.nuget/packages/opencover/4.7.1221</PkgOpenCover>
   </PropertyGroup>
 </Project>
