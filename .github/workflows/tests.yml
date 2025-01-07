@@ -8,6 +8,7 @@ on:
 
 jobs:
   starting:
+    name: Starting
     runs-on: "ubuntu-latest"
 
     steps:
@@ -15,7 +16,7 @@ jobs:
         run: echo "Hello, GitHub Actions!"
 
   tests:
-    name: Unit tests
+    name: Tests
     runs-on: ubuntu-latest
 
     steps:
