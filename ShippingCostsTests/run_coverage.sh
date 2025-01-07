@@ -8,4 +8,4 @@ dotnet test --collect:"XPlat Code Coverage"
 latest_folder=$(ls -td ./TestResults/*/ | head -n 1)
 
 # Generate the coverage report
-reportgenerator -reports:"$latest_folder/coverage.cobertura.xml" -targetdir:./coverage-report -reporttypes:Html
+reportgenerator -reports:"$latest_folder/coverage.cobertura.xml" -targetdir:./Report -reporttypes:Html
