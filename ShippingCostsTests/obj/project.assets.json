@@ -6884,19 +6884,19 @@
     ]
   },
   "packageFolders": {
-    "/Users/basvancleef/.nuget/packages/": {}
+    "C:\\Users\\ricky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsTests/ShippingCostsTests.csproj",
+      "projectUniqueName": "D:\\Repos\\AvansTestAutomation\\ShippingCostsTests\\ShippingCostsTests.csproj",
       "projectName": "ShippingCostsTests",
-      "projectPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsTests/ShippingCostsTests.csproj",
-      "packagesPath": "/Users/basvancleef/.nuget/packages/",
-      "outputPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsTests/obj/",
+      "projectPath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsTests\\ShippingCostsTests.csproj",
+      "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsTests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/basvancleef/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -6908,8 +6908,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/ShippingCostsLibrary.csproj": {
-              "projectPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/ShippingCostsLibrary.csproj"
+            "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\ShippingCostsLibrary.csproj": {
+              "projectPath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\ShippingCostsLibrary.csproj"
             }
           }
         }
@@ -6918,6 +6918,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -6977,7 +6982,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ricky\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

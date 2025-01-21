@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "/Users/basvancleef/RiderProjects/AvansTestAutomation/SoapApiTests/SoapApiTests.csproj": {}
+    "D:\\Repos\\AvansTestAutomation\\SoapApiTests\\SoapApiTests.csproj": {}
   },
   "projects": {
-    "/Users/basvancleef/RiderProjects/AvansTestAutomation/SoapApiTests/SoapApiTests.csproj": {
+    "D:\\Repos\\AvansTestAutomation\\SoapApiTests\\SoapApiTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/basvancleef/RiderProjects/AvansTestAutomation/SoapApiTests/SoapApiTests.csproj",
+        "projectUniqueName": "D:\\Repos\\AvansTestAutomation\\SoapApiTests\\SoapApiTests.csproj",
         "projectName": "SoapApiTests",
-        "projectPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/SoapApiTests/SoapApiTests.csproj",
-        "packagesPath": "/Users/basvancleef/.nuget/packages/",
-        "outputPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/SoapApiTests/obj/",
+        "projectPath": "D:\\Repos\\AvansTestAutomation\\SoapApiTests\\SoapApiTests.csproj",
+        "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+        "outputPath": "D:\\Repos\\AvansTestAutomation\\SoapApiTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/basvancleef/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
@@ -32,12 +32,21 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentAssertions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.6.0, )"
@@ -95,7 +104,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Users\\ricky\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ol6eoCUOEa3g3oj/mjyguoc0vuFGAy+8pKEvaLS2qpaNnYCXokR61wo2IjTSxQ9v88V8FoujVt8qGPjN3a8wng==",
+  "dgSpecHash": "lN7znlvnWMg=",
   "success": true,
-  "projectFilePath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/ShippingCostsLibrary.csproj",
+  "projectFilePath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\ShippingCostsLibrary.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

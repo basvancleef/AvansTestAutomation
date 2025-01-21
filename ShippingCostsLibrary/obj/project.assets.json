@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/Users/basvancleef/.nuget/packages/": {}
+    "C:\\Users\\ricky\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/ShippingCostsLibrary.csproj",
+      "projectUniqueName": "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\ShippingCostsLibrary.csproj",
       "projectName": "ShippingCostsLibrary",
-      "projectPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/ShippingCostsLibrary.csproj",
-      "packagesPath": "/Users/basvancleef/.nuget/packages/",
-      "outputPath": "/Users/basvancleef/RiderProjects/AvansTestAutomation/ShippingCostsLibrary/obj/",
+      "projectPath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\ShippingCostsLibrary.csproj",
+      "packagesPath": "C:\\Users\\ricky\\.nuget\\packages\\",
+      "outputPath": "D:\\Repos\\AvansTestAutomation\\ShippingCostsLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/basvancleef/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ricky\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
@@ -38,6 +38,11 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
@@ -59,7 +64,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.100/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Users\\ricky\\.dotnet\\sdk\\8.0.404/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
