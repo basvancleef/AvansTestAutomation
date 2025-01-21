@@ -1,24 +1,17 @@
-using FluentAssertions;
-using SoapApiTests.NopService;
-
 namespace SoapApiTests;
-
-using System;
-using System.ServiceModel;
-using Xunit;
 
 public class SoapApiTests
 {
     private const string Email = "Rickyhousemen@gmail.com";
     private const string Password = "RickYo21";
-    
+
     [Fact]
     public async Task HappyFlowTestAsync()
     {
         var client = new NopServiceClient();
 
         var result = await client.GetPaymentMethodCollectionAsync(Email, Password);
-        
+
         result.Should().NotBeNull();
     }
 
@@ -28,7 +21,7 @@ public class SoapApiTests
         var client = new NopServiceClient();
 
         var act = () => client.GetPaymentMethodCollectionAsync("nietRickyhousemen@gmail.com", Password);
-        
+
         var exception = await Assert.ThrowsAsync<FaultException<ExceptionDetail>>(act);
 
         exception.Detail.Message.Should().Be("Not allowed");
@@ -40,7 +33,7 @@ public class SoapApiTests
         var client = new NopServiceClient();
 
         var act = () => client.GetPaymentMethodCollectionAsync(Email, "nietRicksPassword");
-        
+
         var exception = await Assert.ThrowsAsync<FaultException<ExceptionDetail>>(act);
 
         exception.Detail.Message.Should().Be("Not allowed");
@@ -50,12 +43,12 @@ public class SoapApiTests
     public async Task SoapErrorTestAsync()
     {
         var client = new NopServiceClient();
-        
+
         // todo: abort the call so it throws an exception when you use the SOAP.
         client.Abort();
-        
+
         var act = () => client.GetPaymentMethodCollectionAsync(Email, "nietRicksPassword");
-        
+
         await Assert.ThrowsAsync<CommunicationObjectAbortedException>(act);
     }
 }
