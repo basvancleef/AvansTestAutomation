@@ -1,3 +1,4 @@
+using FluentAssertions;
 using SoapApiTests.NopService;
 
 namespace SoapApiTests;
@@ -8,36 +9,53 @@ using Xunit;
 
 public class SoapApiTests
 {
-    private const string ServiceUrl = "http://demowebshop.tricentis.com/Plugins/Misc.WebServicesCustomer/Remote/NopService.svc";
+    private const string Email = "Rickyhousemen@gmail.com";
+    private const string Password = "RickYo21";
     
-    private NopServiceClient CreateClient()
+    [Fact]
+    public async Task HappyFlowTestAsync()
     {
-        var binding = new BasicHttpBinding();
-        var endpoint = new EndpointAddress(ServiceUrl);
-        return new NopServiceClient(binding, endpoint);
+        var client = new NopServiceClient();
+
+        var result = await client.GetPaymentMethodCollectionAsync(Email, Password);
+        
+        result.Should().NotBeNull();
     }
 
     [Fact]
-    public void HappyFlowTest()
+    public async Task IncorrectUsernameTestAsync()
     {
-        // TODO: Implement the test
+        var client = new NopServiceClient();
+
+        var act = () => client.GetPaymentMethodCollectionAsync("nietRickyhousemen@gmail.com", Password);
+        
+        var exception = await Assert.ThrowsAsync<FaultException<ExceptionDetail>>(act);
+
+        exception.Detail.Message.Should().Be("Not allowed");
     }
 
     [Fact]
-    public void IncorrectUsernameTest()
+    public async Task IncorrectPasswordTestAsync()
     {
-        // TODO: Implement the test
+        var client = new NopServiceClient();
+
+        var act = () => client.GetPaymentMethodCollectionAsync(Email, "nietRicksPassword");
+        
+        var exception = await Assert.ThrowsAsync<FaultException<ExceptionDetail>>(act);
+
+        exception.Detail.Message.Should().Be("Not allowed");
     }
 
     [Fact]
-    public void IncorrectPasswordTest()
+    public async Task SoapErrorTestAsync()
     {
-        // TODO: Implement the test
-    }
-
-    [Fact]
-    public void SoapErrorTest()
-    {
-        // TODO: Implement the test
+        var client = new NopServiceClient();
+        
+        // todo: abort the call so it throws an exception when you use the SOAP.
+        client.Abort();
+        
+        var act = () => client.GetPaymentMethodCollectionAsync(Email, "nietRicksPassword");
+        
+        await Assert.ThrowsAsync<CommunicationObjectAbortedException>(act);
     }
 }
