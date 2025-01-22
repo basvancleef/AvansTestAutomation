@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Demo Web Shop. Blue Jeans/input_Qty_add-to-cart-button-36",
+      "brokenLocator": "//input[@id\u003d\u0027add-to-cart-button-36\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div/input[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    }
+  ]
+}
