@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Shopping cart                    (2)</name>
+   <tag></tag>
+   <elementGuidId>8821661d-2ea3-41f1-92ee-7bb8f4515935</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='topcartlink']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.ico-cart</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:role=link[name=&quot;Shopping cart (2)&quot;i]</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>66f8dadb-6af2-49ec-a2c5-43dab7bb1019</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/cart</value>
+      <webElementGuid>f1763132-6f31-4b71-90f9-4a2f8ae5e774</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico-cart</value>
+      <webElementGuid>d64164c9-13af-43b3-9eec-409d737f2011</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                    Shopping cart
+                    (2)
+                </value>
+      <webElementGuid>c25897f2-5e86-4d06-ab37-457a87832afb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;topcartlink&quot;)/a[@class=&quot;ico-cart&quot;]</value>
+      <webElementGuid>2383a7ab-ffa4-4002-8897-bcbf8cb1ce05</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='topcartlink']/a</value>
+      <webElementGuid>ab2b6bd3-2941-473b-beba-b5f43249708d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Log out'])[1]/following::a[1]</value>
+      <webElementGuid>5f9d0295-f4f0-4286-8d0a-714a91c5ce5a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='rickyhousemen@gmail.com'])[1]/following::a[2]</value>
+      <webElementGuid>1ac2fe01-0ce5-466e-9a1f-f1e685c1baea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/cart')])[2]</value>
+      <webElementGuid>7f67f05f-fdee-49be-9003-ee508deaca3b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>7649726f-1e0c-44d2-825d-ad59c0c6525d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/cart' and (text() = '
+                    Shopping cart
+                    (2)
+                ' or . = '
+                    Shopping cart
+                    (2)
+                ')]</value>
+      <webElementGuid>0ddc9669-d6da-46af-ae81-68a86ff346a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
